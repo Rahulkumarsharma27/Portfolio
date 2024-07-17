@@ -716,7 +716,11 @@ button[type="submit"]:hover {
     text-align: center; /* Centers the text within its container */
     font-size: 2vw;
 }
-
+@media only screen and (max-width: 450px){
+    #work{
+        min-height: 70vh;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     #work{
