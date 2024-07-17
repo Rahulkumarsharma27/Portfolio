@@ -718,104 +718,96 @@ button[type="submit"]:hover {
 
 
 
-@media screen and (max-width:390px){
-    .project{
-        min-height: 60vh;
-    }
-    .contact-box h1{
-        padding-top: 20vw;
-    }
-    .contact-box{
-        min-height: 30vh;
-    }
-    .contact-inner-box{
-   
-        gap: 5vw;
-        padding: 0 4vw;
-    }
-   
-    
-}
-@media (min-width:250px) and (max-width:544px){
-    .project{
-        min-height: 90vh;
-     }
-     .contact-box{
-        min-height: 35vw;
-     }
-    
-}
 
-@media (min-width:545px) and (max-width:950px){
- .project{
-    min-height: 110vh;
- }
- .contact-box h1{
-    padding-top: 20vw;
- }
- .contact-box{
-    min-height: 40vh;
-}
-.contact-inner-box{
-   
-    gap: 10vw;
-    padding: 0 6vw;
-}
-}
-/* @media (min-width:545px) and (max-width:950px){
-    .contact-box{
-        min-height: ;
+@media only screen and (max-width: 600px) {
+    #work{
+        min-height: 80vh;
+        padding-top: 70px;
     }
-} */
-@media (min-width:350px) and (max-width:690px)
- {
-    .project::after{
-        top: -16vw;
+    #imagery{
+        margin-top: 2vw;
     }
-    .contact-box::after{
-        top: -16vw;
+    .con::before{
+        right: -20px;
+    top: 11px;
     }
-    .skilltop h1 
-    {
-        padding-top: 17vw;
+   #skill{
+    min-height: 50vh;
+   }
+   #skill::after{
+    top: -90px;
+   }
+   .skill-box{
+    padding-bottom: 50px;
+   }
+   .project{
+    min-height: 90vh;
+   }
+   .project::after {
+    top: -70px;
+    min-height: 20vw;
+   }
+   .project-box > h1{
+    padding-top: 15vw;
+   }
+   .project-other-img{
+    padding-bottom: 4vw;
+   }
+   .contact-box::after{
+    height: 15vw;
+   }
+   .contact-box{
+    min-height: 35vh;
+   }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    #imagery{
+        margin-top: 1vw;
     }
-    .grid-box .grid-box{
-        gap: 20px;
-        padding: 0 20px;
-        margin-bottom: 1vw;
-    }
- 
-}
-
-
-    
-@media screen and (max-width:750px){
-    #skill{
-        min-height: 50vh;
-        padding-top: 2vw;
-        padding-bottom: 9vw;
-    }
-    .project{
-       
-        padding-top: 2vw; 
+    .con::before{
+        right: -20px;
+    top: 15px;
     }
     #work{
-        min-height: 50vh;
-        padding-top: 2vw; 
+        min-height: 90vw;
     }
-    .skilltop{
-        margin-top: 5vw;
+    #skill{
+        min-height: 80vh;
     }
-    .workrow h1{
-        margin-top: 10vw;
+    .project-box > h1{
+        padding-top: 15vw;
     }
-    .project-box h1{
+    .project{
+        min-height: 130vh;
+    }
+    .contact-box::after {
+        top: -4vw;
+        height: 12vw;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    #imagery{
+        margin-top: 3vw;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    #imagery{
+        margin-top: 4vw;
+    }
+    #work{
+        min-height: 75vw;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    #imagery{
         margin-top: 8vw;
     }
-   }
-   @media (min-width:790px) and (max-width:1450px){
-    #skill{
-        margin-bottom: 4vw;
-    }
-    }
-    
+  }
